@@ -15,16 +15,18 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "ReviewReply — AI-Powered Review Response Manager",
-    description:
-      "Never miss a review again. Generate professional responses to customer reviews in seconds with AI.",
+    description: "Never miss a review again. Generate professional responses to customer reviews in seconds with AI.",
     type: "website",
     siteName: "ReviewReply",
+    url: "https://reviewreply-ten.vercel.app",
+    images: [{ url: "https://reviewreply-ten.vercel.app/og-image.png", width: 1200, height: 630, alt: "ReviewReply — AI-Powered Review Response Manager" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "ReviewReply — AI-Powered Review Response Manager",
-    description:
-      "Never miss a review again. Generate professional responses to customer reviews in seconds with AI.",
+    description: "Never miss a review again. Generate professional responses to customer reviews in seconds with AI.",
+    creator: "@automatikstudio",
+    images: ["https://reviewreply-ten.vercel.app/og-image.png"],
   },
   icons: {
     icon: "/favicon.svg",
