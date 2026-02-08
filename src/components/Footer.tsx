@@ -74,6 +74,15 @@ export default function Footer() {
             >
               Automatik.studio
             </a>
+            {" "}•{" "}
+            <a
+              href="https://www.aitoolzdir.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-brand-emerald hover:underline"
+            >
+              AI Toolz Dir
+            </a>
           </p>
         </div>
       </div>
